@@ -17,3 +17,13 @@ dateCreated: 2023-08-10T11:57:24.106Z
 
 
 r
+```mermaid
+graph LR;
+    user-->App-- api01, api02, apiXX -->nginx:::ng
+    subgraph do1 [docker]
+    nginx-->api01 & api02 & apiXX
+    end
+    style do1 fill:#58b,stroke:#361,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
+    classDef ng fill:#2f2
+
+```
