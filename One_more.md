@@ -19,3 +19,6 @@ Your content here
 
 И картинку в папке
 ![db28.png](/files/db28.png)
+
+
+отредактируем файл тут
