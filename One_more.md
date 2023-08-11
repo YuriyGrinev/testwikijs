@@ -2,7 +2,7 @@
 title: Еще страница
 description: 
 published: 1
-date: 2023-08-11T09:30:22.872Z
+date: 2023-08-11T09:32:31.890Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-10T12:24:48.356Z
@@ -18,7 +18,7 @@ Your content here
 ![db34.png](/db34.png)
 
 И картинку в папке
-![db28.png](../files/db28.png)
+![db28.png](files/db28.png)
 
 
 отредактируем файл тут
