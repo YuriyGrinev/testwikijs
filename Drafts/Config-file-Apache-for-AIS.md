@@ -1,4 +1,15 @@
+---
+title: Config-file-Apache-for-AIS
+description: 
+published: 1
+date: 2023-08-14T12:50:09.214Z
+tags: 
+editor: markdown
+dateCreated: 2023-08-14T12:36:44.533Z
+---
+
 Создать файл /etc/httpd/conf.d/ais**XX**.conf со следующим содержимым, заменив номер МФЦ на актуальный:
+
 ```
 <VirtualHost *:80>
   ServerName ais07.mfc07.umfc26
@@ -34,6 +45,4 @@
   php_admin_value mbstring.internal_encoding UTF-8
   php_admin_value mbstring.language  Russian
 </VirtualHost>
-
-
 ```
