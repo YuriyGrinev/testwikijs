@@ -1,3 +1,13 @@
+---
+title: Config_Apache
+description: 
+published: 1
+date: 2023-08-14T12:35:21.197Z
+tags: 
+editor: markdown
+dateCreated: 2023-08-14T11:49:38.498Z
+---
+
 
 Редактируем файл 00-mpm.conf
 `vim /etc/httpd/conf.modules.d/00-mpm.conf`
@@ -7,6 +17,7 @@ LoadModule mpm_prefork_module modules/mod_mpm_prefork.so
 ```
 
 `sudo systemctl restart httpd`
+
 
 Добавляем конфиг для аис
 
